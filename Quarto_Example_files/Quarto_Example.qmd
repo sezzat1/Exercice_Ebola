@@ -1,0 +1,35 @@
+---
+title: "Second Wave of COVID-19 in Switzerland"
+author: "Christian Althaus"
+date: "`r date()`"
+format: html
+  
+ 
+---
+
+````{r}
+#| output : false
+# Load library 
+library(here)
+library(tidyverse)
+library(lubridate)
+`````
+
+
+
+
+## Introduction 
+
+The aim of this exercise is to visualize the increase in laboratory-confirmed cases of COVID-19 in Switzerland during autmn 2020. 
+
+
+## Data 
+
+Load data from FOPH. 
+
+
+````{r}
+#| output : false
+# Load library 
+cases <- read.csv(here(("data/raw/ebola.csv")))
+`````

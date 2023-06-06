@@ -1,0 +1,20 @@
+---
+title: "Ebola number of confirmed cases"
+format: html
+author: "Sara Ezzat"
+date: "`r date()`"
+---
+
+
+````{r}
+#| include : false
+# Load library 
+library(here)
+library(tidyverse)
+library(lubridate)
+`````
+
+
+## Introduction 
+
+The aim of this exercise is to visualize the number of confirmed cases in 
